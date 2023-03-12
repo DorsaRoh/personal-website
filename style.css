@@ -16,6 +16,7 @@ html{
   font-size: 62.5%;
   font-size: 10px;
   margin-top:2em;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,7 +27,6 @@ body {
     font-size: 62.5%;
     font-size: 10px;
     margin-top:2em;
-    scroll-behavior: smooth;
 }
 
 
