@@ -31,7 +31,7 @@
 }
 
 .nav div.logo a:hover {
-  color: black;
+  color: rgb(180, 159, 159);
 }
 
 
@@ -39,7 +39,6 @@
 
 .nav div.main_list {
   float: right;
-  padding-bottom:100px;
 }
 
 .nav div.main_list ul {
@@ -59,7 +58,7 @@
 }
 
 .nav div.main_list ul li a:hover {
-  color: black;
+  color: rgb(189, 177, 177);
 }
 
 .affix {
