@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Noto+Sans:wght@400&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,600,400&display=swap" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Dorsa Rohani</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="project.css" rel="stylesheet" type="text/css" />
+    <link href="nav.css" rel="stylesheet" type="text/css" />
+    <!--Connect to JavaScript file--> 
+      <!--Note: Defer tells the browser to run the script *after* it downloads the full HTML document. Without it, you might get errors.-->
+    <script src="script.js" defer ></script> 
+    
+    
+  </head>
+
+   <body>
+    <div class="main"></div>
+
+    <style>
+
+    </style>
+    <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="#">Dorsa Rohani</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+    </nav>
+    <header>
+        <h1>Hi, I'm Dorsa Rohani. <br>This website is under construction</h1></h1>
+        <h2>Currently, I'm a high school student @ <span style="color:#b10000">PETHS</span>. Here's some of my work.</h2>
+        <main>
+            <div id="particles-js"></div>
+            <script src="particles.js"></script>
+            <script src="app.js"></script>
+
+        </main>
+    </header>
+
+    <section class="projects" id="projects">
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="img\medium.jpg"
+              alt="Medic.AI"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Medic.AI</h3>
+            <p class="project-details">
+              3x hackathon award winner.
+              <br></br>
+              Natural language processing AI bot that diagnoses cognitive diseases.
+            </p>
+            <a href="medicai.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/netflixClone.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Netflix Clone</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/greenyEarth.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Greeny Earth</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+    
+    </body>
+</html>
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+

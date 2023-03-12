@@ -1,0 +1,50 @@
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 9px 0;
+    margin-top: 12rem;
+  }
+  
+  .project-pic {
+    align-items:center;
+    width: 120%;
+    height: 120%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-container {
+    text-align: center;
+    width: 25.875rem;
+    padding: 1rem;
+  }
+
+  .project-container p {
+    padding: 0.4rem;
+  }
+  
+  .project-title {
+    margin-bottom: var(--bottom-margin);
+    color: #fff;
+    font-size:50px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .project-details {
+    margin-bottom: var(--bottom-margin);
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:20px;
+  }
+  
+  .project-card {
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 80px;
+    margin: 40px;
+  }
